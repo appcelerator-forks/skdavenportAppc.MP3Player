@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class='container' onOpen='doopen'>
+		<Toolbar platform='ios'>
+			<Items>
+				<FlexSpace/>
+				<Label id='windowtitle' />
+				<FlexSpace/>
+			</Items>
+		</Toolbar>
+		<View class='content'>
+			<Label id='songtitle' class='songtitle'></Label>
+			<View class='controlsbar'>
+				
+			</View>
+		</View>
+	</Window>
+</Alloy>
