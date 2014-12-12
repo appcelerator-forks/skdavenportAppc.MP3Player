@@ -10,7 +10,15 @@
 		<View class='content'>
 			<Label id='songtitle' class='songtitle'></Label>
 			<View class='controlsbar'>
-				
+				<View class='button' id='prev'>
+					<ImageView class='btnprev' onTouchstart='prevdown' onTouchend='prevup'/>
+				</View>
+				<View class='button' id='play'>
+					<ImageView class='btnplay' onTouchstart='playdown' onTouched='playup'/>
+				</View>
+				<View class='button' id='next'>
+					<ImageView class='btnnext' onTouchstart='nextdown' onTouched='nextup'/>
+				</View>
 			</View>
 		</View>
 	</Window>
