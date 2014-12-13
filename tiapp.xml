@@ -63,7 +63,6 @@
                     android:configChanges="keyboardHidden|orientation"
                     android:label="MP3Player"
                     android:name=".Mp3playerActivity" android:theme="@style/Theme.Titanium">
-                    <application android:theme="@style/Light"/>
                     <intent-filter>
                         <action android:name="android.intent.action.MAIN"/>
                         <category android:name="android.intent.category.LAUNCHER"/>
