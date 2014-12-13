@@ -1,4 +1,6 @@
-".container [platform=ios]": {
+//adding [platform=ios] is not evaluating properly
+
+".container": {
 	backgroundColor:"white",
 	top:'20',
 	statusBarStyle:Ti.UI.iPhone.StatusBar.LIGHT_CONTENT,
@@ -13,13 +15,11 @@
 }
 
 ".toolbar": {
-	top:20,
 	borderTop:'true',
 	borderBottom:'true',
 }
 
 ".content": {
-	top: 60,
 	backgroundImage: '/jeeplighthouse.png'
 }
 
