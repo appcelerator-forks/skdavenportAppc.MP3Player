@@ -13,12 +13,13 @@
 }
 
 ".toolbar": {
-	top:0,
+	top:20,
 	borderTop:'true',
-	borderBottom:'true'
+	borderBottom:'true',
 }
 
 ".content": {
+	top: 60,
 	backgroundImage: '/jeeplighthouse.png'
 }
 
@@ -37,7 +38,7 @@
 	bottom: '0',
 	height: '70',
 	backgroundColor: '#cacaca',
-	opacity: '.5'
+	opacity: '.5',
 }
 
 ".button": {
@@ -58,11 +59,5 @@
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
-"#label": {
-	font: {
-		fontSize: 12
-	}
+	color: "#1979BC"
 }

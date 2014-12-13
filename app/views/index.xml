@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class='container' onOpen='doopen'>
-		<Toolbar platform='ios'>
+		<Toolbar class='toolbar' platform='ios'>
 			<Items>
 				<FlexSpace/>
 				<Label id='windowtitle' />
@@ -10,14 +10,14 @@
 		<View class='content'>
 			<Label id='songtitle' class='songtitle'></Label>
 			<View class='controlsbar'>
-				<View class='button' id='prev'>
-					<ImageView class='btnprev' onTouchstart='prevdown' onTouchend='prevup'/>
+				<View class='button' id='prev' >
+					<ImageView image='btnprev.png' class='btnprev' onTouchstart='prevdown' onTouchend='prevup'/>
 				</View>
 				<View class='button' id='play'>
-					<ImageView class='btnplay' onTouchstart='playdown' onTouched='playup'/>
+					<ImageView image='btnplay.png' class='btnplay' onTouchstart='playdown' onTouched='playup'/>
 				</View>
-				<View class='button' id='next'>
-					<ImageView class='btnnext' onTouchstart='nextdown' onTouched='nextup'/>
+				<View image='btnnext.png' class='button' id='next'>
+					<ImageView image='btnnext.png' class='btnnext' onTouchstart='nextdown' onTouched='nextup'/>
 				</View>
 			</View>
 		</View>
