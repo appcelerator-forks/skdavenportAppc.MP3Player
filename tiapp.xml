@@ -102,7 +102,7 @@
         <module deploy-type="test" platform="android" version="1.0">com.soasta.touchtest</module>
     </modules>
     <deployment-targets>
-        <target device="android">false</target>
+        <target device="android">true</target>
         <target device="blackberry">false</target>
         <target device="ipad">false</target>
         <target device="iphone">true</target>

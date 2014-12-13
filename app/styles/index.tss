@@ -1,17 +1,18 @@
-//adding [platform=ios] is not evaluating properly
-
-".container": {
-	backgroundColor:"white",
-	top:'20',
-	statusBarStyle:Ti.UI.iPhone.StatusBar.LIGHT_CONTENT,
-	layout: 'vertical',
-	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT]
-}
 
 ".container [platform=android]": {
 	backgroundColor:"white",
 	layout: 'vertical',
 	orientationModes: [Ti.UI.PORTRAIT]
+}
+
+//adding [platform=ios] is not evaluating properly with this code I don't see the "Media Player" title bar on iOS but Android is fine'
+
+".container [platform=ios]": {
+	backgroundColor:"white",
+	top:'20',
+	statusBarStyle:Ti.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	layout: 'vertical',
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT]
 }
 
 ".toolbar": {
@@ -47,12 +48,16 @@
 }
 
 "#prev": {
+	image: '/btnprev.png',
 	left: 0
 }
 
-"#play": {}
+"#play": {
+	image: '/btnplay.png'
+}
 
 "#next": {
+	image: '/btnnext.png',
 	right: 0
 }
 
