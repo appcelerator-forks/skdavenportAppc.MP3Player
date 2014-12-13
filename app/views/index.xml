@@ -6,7 +6,7 @@
 				<Label id='windowtitle' />
 				<FlexSpace/>
 			</Items>
-		</Toolbar>
+		</Toolbar>  
 		<View class='content'>
 			<Label id='songtitle' class='songtitle'></Label>
 			<View class='controlsbar'>
