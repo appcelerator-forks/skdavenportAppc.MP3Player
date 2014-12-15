@@ -1,6 +1,6 @@
 
 var songs = [
-    {filename:'/songs/ThatsDamnRockAndRoll.mp3', filetitle:'Thats Damn Rock & Roll'},
+    {filename:'/songs/ThatsDamnRockAndRoll.mp3', filetitle:'Thats Rock & Roll'},
     {filename:'/songs/Talladega.mp3', filetitle:'Talladega'},
     {filename:'/songs/TheOutsiders.mp3', filetitle:'The Outsiders'}
 

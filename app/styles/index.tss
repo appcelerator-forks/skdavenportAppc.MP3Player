@@ -1,13 +1,11 @@
 
-".container [platform=android]": {
+".container[platform=android]": {
 	backgroundColor:"white",
 	layout: 'vertical',
 	orientationModes: [Ti.UI.PORTRAIT]
 }
 
-//adding [platform=ios] is not evaluating properly with this code I don't see the "Media Player" title bar on iOS but Android is fine'
-
-".container [platform=ios]": {
+".container[platform=ios]": {
 	backgroundColor:"white",
 	top:'20',
 	statusBarStyle:Ti.UI.iPhone.StatusBar.LIGHT_CONTENT,
@@ -21,7 +19,7 @@
 }
 
 ".content": {
-	backgroundImage: '/jeeplighthouse.png'
+	backgroundImage: '/churchredbeam.png'
 }
 
 ".songtitle": {

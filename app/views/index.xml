@@ -11,13 +11,13 @@
 			<Label id='songtitle' class='songtitle'></Label>
 			<View class='controlsbar'>
 				<View class='button' id='prev' >
-					<ImageView image='btnprev.png' onTouchstart='prevdown' onTouchend='prevup'/>
+					<ImageView image='/btnprev.png' onTouchstart='prevdown' onTouchend='prevup'/>
 				</View>
 				<View class='button' id='play'>
-					<ImageView image='btnplay.png' onTouchstart='playdown' onTouchend='playup'/>
+					<ImageView image='/btnplay.png' onTouchstart='playdown' onTouchend='playup'/>
 				</View>
 				<View class='button' id='next'>
-					<ImageView image='btnnext.png' onTouchstart='nextdown' onTouchend='nextup'/>
+					<ImageView image='/btnnext.png' onTouchstart='nextdown' onTouchend='nextup'/>
 				</View>
 			</View>
 		</View>
